@@ -8,6 +8,10 @@ public class Git {
 		System.out.println("Hello Nitin Sir");
 	}
 	
+	public void m2()
+	{
+		System.out.println("Welcome M2 Method");
+	}
 	public static void main(String args[])
 	{
 		Git git=new Git();
