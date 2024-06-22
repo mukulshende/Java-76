@@ -1,5 +1,11 @@
 package com.cjc.main.repository;
 
-public interface StudentRepository {
+import org.springframework.data.repository.CrudRepository;
+
+import com.cjc.main.model.Student;
+
+public interface StudentRepository extends CrudRepository<Student, Integer>{
+
+	
 
 }
